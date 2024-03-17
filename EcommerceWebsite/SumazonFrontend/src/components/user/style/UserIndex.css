@@ -1,0 +1,148 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: orange; 
+  padding: 10px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.cart {
+  background-color: #007bff; 
+  color: white; 
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.signOutButton {
+  background-color: #dc3545; 
+  color: white; 
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.searchBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.searchBar {
+  padding: 8px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  margin-left: 8px; 
+}
+
+.searchBarContainer label {
+  margin-right: 8px; 
+}
+
+.product-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-container h2 {
+  text-align: start; 
+  color: #333;
+}
+
+.product-container input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.productDetails {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.li {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.li img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.ViewButton {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ViewButton:hover {
+  background-color: #45a049;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
